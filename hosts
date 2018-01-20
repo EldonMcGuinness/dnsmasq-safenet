@@ -1,0 +1,16 @@
+::1 localhost
+127.0.0.1 localhost
+::ffff:216.239.38.120 forcesafesearch.google.com restrict.youtube.com
+216.239.38.120 forcesafesearch.google.com restrict.youtube.com
+::ffff:216.239.38.119 restrictmoderate.youtube.com
+216.239.38.119 restrictmoderate.youtube.com
+::ffff:204.79.197.220 strict.bing.com
+204.79.197.220 strict.bing.com
+::ffff:184.72.115.86 safe.duckduckgo.com
+184.72.115.86 safe.duckduckgo.com
+
+# Yandex does not offer a safe server, so we just send   
+# this to localhost
+::ffff:127.0.0.1 safe.yandex.com
+127.0.0.1 safe.yandex.com
+
