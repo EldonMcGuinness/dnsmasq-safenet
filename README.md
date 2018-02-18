@@ -23,13 +23,13 @@ conf-dir=/etc/dnsmasq.d/,*.conf
 ## /etc/hosts
 Append from the hosts file in the repo to that of your hosts file
 ```
-curl -s https://raw.githubusercontent.com/EldonMcGuinness/safe-dnsmasq/master/hosts >> /etc/hosts
+curl -s https://raw.githubusercontent.com/EldonMcGuinness/dnsmasq-safenet/master/hosts >> /etc/hosts
 ```
 
 ## /etc/dnsmasq.d/safenet.conf
 Download the latest rules to redirect unprotected urls to protected ones
 ```
-curl -s https://raw.githubusercontent.com/EldonMcGuinness/safe-dnsmasq/master/hosts > /etc/dnsmasq.d/safenet.conf
+curl -s https://raw.githubusercontent.com/EldonMcGuinness/dnsmasq-safenet/master/safenet.conf > /etc/dnsmasq.d/safenet.conf
 
 ```
 
